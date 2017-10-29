@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    "stage-0"
+  ],
+  "sourceMaps": "both",
+  "plugins": [
+    "shebang",
+    "source-map-support",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-decorators"
+  ]
+}
